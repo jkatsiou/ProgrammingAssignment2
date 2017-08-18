@@ -1,6 +1,7 @@
 ## The two functions work together in order to create, store, search a cache of matrices and return their inverses. 
-## The makeCacheMatrix function creates the cache (a list containing the matrix,its inverse and a set of functions), while cacheSolve retrieves 
-## the inverese (if it has been previously calculated) or If the inverse has not been previous calculated, it calculates, stores and displays it. 
+## The makeCacheMatrix creates the cache (a list containing the matrix,its inverse and a set of functions), while 
+## cacheSolve retrieves the inverese (if it has been previously calculated) otherwise it calculates, stores and displays
+## the inverse 
 
 
 
