@@ -53,7 +53,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## In order cacheSolve to work, it has to receive as input a list that was previously created by the makeCacheMatrix function.
 
 ## The cacheSolve function attempts to find if an inverse has been previously created for the matrix included 
-## in its argument (list x), by invoking the  $getinverse() element of the list. 
+## in its argument (list x), by invoking the  $getinverse() element of the list and storing the result in local variable m
 
 ## If $getinverse returns a  value different than null (which means that an inverse has been previously calculated for the matrix)
 ## then it returns the inverse, prints the message "getting cached data" and stops the execution. 
